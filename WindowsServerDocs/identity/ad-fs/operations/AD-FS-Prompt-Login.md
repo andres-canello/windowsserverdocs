@@ -58,7 +58,7 @@ Use the Azure AD PowerShell module to configure the setting.
 ![Get-MsolDomainFederationSettings](media/AD-FS-Prompt-Login/GetMsol.png)
 
 > [!NOTE]
-> If the `PreferredAuthenticationMethod` property is empty (`$null`) it means the default behavior of `TranslateToFreshPasswordAuth`.
+> If the `PromptLoginBehavior` property is empty (`$null`) it means the default behavior of `TranslateToFreshPasswordAuth`.
 
 2. Configure the desired value of `PromptLoginBehavior` by running the following command:
 
